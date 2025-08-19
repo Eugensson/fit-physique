@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1400px;
+
+  --color-primary: #333333;
+  --color-primary-100: #484848;
+  --color-primary-200: #151515;
+  --color-primary-300: #111111;
+  --color-accent: #d4000d;
+
+  --font-oswald: "Oswald";
+  --font-roboto: "Roboto";
+}
+
+body {
+  @apply font-roboto bg-white text-primary leading-relaxed;
+}
+
+.container {
+  @apply max-w-350 mx-auto px-3.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-oswald font-bold uppercase;
+}
+
+.h1 {
+  @apply text-white text-7xl lg:text-[128px] tracking-[-3px];
+}
+
+.h2 {
+  @apply text-[36px];
+}
+
+.h3 {
+  @apply text-[32px];
+}
+
+.h4 {
+  @apply text-[26px];
+}
+
+.h5 {
+  @apply text-[22px];
+}
+
+.active {
+  @apply text-accent;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply bg-accent;
+}
