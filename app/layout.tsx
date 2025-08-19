@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Oswald, Roboto } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+
 import "./globals.css";
 
 const oswald = Oswald({
@@ -22,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | Fit Physique",
   },
   description:
-    "Fit Physique — ваш надійний партнер у світі фітнесу та здорового способу життя. Ми пропонуємо персональні тренування, програми харчування та експертні поради, щоб допомогти вам досягти ідеальної форми, зміцнити здоров’я та почуватися впевнено щодня.",
+    "Fit Physique is your trusted partner in fitness and a healthy lifestyle. We provide personalized training, nutrition plans, and expert coaching to help you build strength, improve health, and feel confident every day.",
 };
 
 export default function RootLayout({
@@ -31,9 +34,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-gray-200">
       <body className={`${oswald.variable} ${roboto.variable} antialiased`}>
+        <Header />
         {children}
+        <Footer />
         <Analytics />
       </body>
     </html>
