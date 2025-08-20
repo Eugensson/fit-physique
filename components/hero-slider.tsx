@@ -80,7 +80,7 @@ export const HeroSlider = () => {
         </div>
       </SwiperSlide>
       <SwiperNavButtons
-        containerStyles="absolute bottom-2 lg:bottom-0 right-0 z-50 h-32.5 w-full lg:w-175 flex justify-center lg:justify-start gap-1"
+        containerStyles="absolute -bottom-4 lg:bottom-0 right-0 z-50 h-32.5 w-full lg:w-175 flex justify-center lg:justify-start gap-1"
         btnStyles="size-14 flex items-center justify-center border border-accent text-white hover:bg-accent transition-colors duration-300 cursor-pointer"
         iconStyles="text-2xl"
       />
