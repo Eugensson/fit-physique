@@ -32,8 +32,9 @@ export const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className="mb-4 text-white italic text-center lg:text-left"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae at sit cum.
+              Dedicated training and proven methods that push you forward. Every
+              session builds strength, focus, and the confidence to achieve
+              more.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.8)}
@@ -65,8 +66,9 @@ export const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className="mb-4 text-white italic text-center lg:text-left"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae at sit cum.
+              Step into a motivating space designed for progress. Our approach
+              combines powerful workouts with the inspiration to keep going
+              strong.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.8)}

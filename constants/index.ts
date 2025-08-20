@@ -301,3 +301,47 @@ export const BRAND_DATA = [
     alt: "Bodybuilding Sports Gym",
   },
 ];
+
+export const SOCIAL_DATA = [
+  { icon: RiFacebookCircleFill, link: "https://facebook.com" },
+  { icon: RiInstagramLine, link: "https://instagram.com" },
+  { icon: RiYoutubeLine, link: "https://youtube.com" },
+];
+
+export const GALLERY_DATA = [
+  {
+    img: "/assets/trainers/david.jpg",
+    alt: "Photo trainer",
+    href: "#",
+  },
+  {
+    img: "/assets/trainers/matt.jpg",
+    alt: "Photo trainer",
+    href: "#",
+  },
+  {
+    img: "/assets/trainers/rosy.jpg",
+    alt: "Photo trainer",
+    href: "#",
+  },
+  {
+    img: "/assets/trainers/sofia.jpg",
+    alt: "Photo trainer",
+    href: "#",
+  },
+  {
+    img: "/assets/testimonial/lucy.jpg",
+    alt: "Photo client",
+    href: "#",
+  },
+  {
+    img: "/assets/testimonial/maria.jpg",
+    alt: "Photo client",
+    href: "#",
+  },
+  {
+    img: "/assets/testimonial/michael.jpg",
+    alt: "Photo client",
+    href: "#",
+  },
+];

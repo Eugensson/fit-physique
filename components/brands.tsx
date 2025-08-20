@@ -9,7 +9,7 @@ import { brandContainerVariant, brandItemVariant } from "@/lib/variants";
 
 export const Brands = () => {
   return (
-    <section className="py-8" id="contact">
+    <section className="py-8">
       <div className="container mx-auto">
         <motion.ul
           variants={brandContainerVariant}

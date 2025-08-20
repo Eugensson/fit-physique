@@ -81,3 +81,29 @@ export const brandItemVariant: Variants = {
     } as Transition,
   },
 };
+
+export const footerContainerVariant: Variants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.6,
+      duration: 0.5,
+      ease: "linear",
+    } as Transition,
+  },
+};
+
+export const footerItemVariant: Variants = {
+  hidden: {
+    y: 20,
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      ease: [0.25, 0.6, 0.3, 0.8],
+    } as Transition,
+  },
+};
