@@ -18,7 +18,7 @@
 }
 
 body {
-  @apply max-w-480 mx-auto font-roboto bg-white text-primary leading-relaxed;
+  @apply max-w-480 mx-auto font-roboto bg-white text-primary-200 leading-relaxed;
 }
 
 .container {

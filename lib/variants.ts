@@ -26,3 +26,32 @@ export const fadeIn = (direction: string, delay: number): Variants => {
     },
   };
 };
+
+export const statsContainerVariant: Variants = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.4,
+      duration: 0.5,
+      ease: "linear",
+    } as Transition,
+  },
+};
+
+export const statsItemVariant: Variants = {
+  hidden: {
+    y: 20,
+    opacity: 0,
+  },
+  show: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      ease: [0.25, 0.6, 0.3, 0.8],
+    } as Transition,
+  },
+};
