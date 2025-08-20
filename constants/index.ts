@@ -57,3 +57,30 @@ export const STATS_DATA = [
     title: "working hours",
   },
 ];
+
+export const CLASSES_DATA = [
+  {
+    name: "body building",
+    img: "/assets/classes/bodybuilding.jpg",
+    description:
+      "Join our fitness center’s bodybuilding program with expert personal training and gym equipment for maximum results.",
+  },
+  {
+    name: "cardio",
+    img: "/assets/classes/cardio.jpg",
+    description:
+      "Boost endurance at our gym with cardio classes designed to improve stamina, heart health, and overall fitness.",
+  },
+  {
+    name: "fitness",
+    img: "/assets/classes/fitness.jpg",
+    description:
+      "Enjoy full-body workouts at our fitness center, combining personal training, strength exercises, and improved mobility.",
+  },
+  {
+    name: "crossfit",
+    img: "/assets/classes/crossfit.jpg",
+    description:
+      "Experience high-intensity CrossFit in our gym with personal training, functional movements, and strength conditioning sessions.",
+  },
+];
