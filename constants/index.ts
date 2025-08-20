@@ -222,3 +222,82 @@ export const TESTIMONIAL_DATA = [
     name: "Maria Garcia",
   },
 ];
+
+export const BLOG_DATA = [
+  {
+    img: "/assets/blog/post1.jpg",
+    date: "August 20, 2025",
+    title: "Top Fitness Tips to Boost Energy and Stay Motivated",
+    href: "#",
+  },
+  {
+    img: "/assets/blog/post2.jpg",
+    date: "August 20, 2025",
+    title: "How Strength Training Builds Muscle and Confidence",
+    href: "#",
+  },
+  {
+    img: "/assets/blog/post3.jpg",
+    date: "August 20, 2025",
+    title: "Effective Post-Workout Recovery for Faster Results",
+    href: "#",
+  },
+  {
+    img: "/assets/blog/post4.jpg",
+    date: "August 20, 2025",
+    title: "Balanced Nutrition Plans to Support Your Fitness Goals",
+    href: "#",
+  },
+  {
+    img: "/assets/blog/post1.jpg",
+    date: "August 20, 2025",
+    title: "Cardio Workouts That Improve Endurance and Health",
+    href: "#",
+  },
+  {
+    img: "/assets/blog/post2.jpg",
+    date: "August 20, 2025",
+    title: "The Benefits of Personal Training for Lasting Results",
+    href: "#",
+  },
+  {
+    img: "/assets/blog/post3.jpg",
+    date: "August 20, 2025",
+    title: "Building a Consistent Gym Routine That Works for You",
+    href: "#",
+  },
+  {
+    img: "/assets/blog/post4.jpg",
+    date: "August 20, 2025",
+    title: "Mindset and Motivation: Keys to Fitness Success",
+    href: "#",
+  },
+];
+
+export const BRAND_DATA = [
+  {
+    src: "/assets/brands/brand-1.png",
+    href: "#",
+    alt: "Fitness center",
+  },
+  {
+    src: "/assets/brands/brand-2.png",
+    href: "#",
+    alt: "Lifter",
+  },
+  {
+    src: "/assets/brands/brand-3.png",
+    href: "#",
+    alt: "Helth Center Best Local Gym",
+  },
+  {
+    src: "/assets/brands/brand-4.png",
+    href: "#",
+    alt: "Fitness Club Gym",
+  },
+  {
+    src: "/assets/brands/brand-5.png",
+    href: "#",
+    alt: "Bodybuilding Sports Gym",
+  },
+];
