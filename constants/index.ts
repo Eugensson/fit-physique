@@ -15,7 +15,7 @@ export const NAV_LINKS = [
   { name: "classes", target: "classes", offset: -80 },
   { name: "team", target: "team", offset: -40 },
   { name: "prices", target: "prices", offset: -80 },
-  { name: "testimonials", target: "testimonials", offset: 0 },
+  { name: "testimonials", target: "testimonials", offset: -40 },
   { name: "blog", target: "blog", offset: 0 },
   { name: "contact", target: "contact", offset: 0 },
 ];
@@ -181,5 +181,44 @@ export const MEMBERSHOP_DATA = [
       { icon: FaCheck, text: "Full access to everything" },
       { icon: FaCheck, text: "No additional amenities" },
     ],
+  },
+];
+
+export const TESTIMONIAL_DATA = [
+  {
+    img: "/assets/testimonial/lucy.jpg",
+    message:
+      "Joining this fitness club completely changed my lifestyle. The trainers are supportive, and every workout feels motivating and effective.",
+    name: "Lucy Anthony",
+  },
+  {
+    img: "/assets/testimonial/michael.jpg",
+    message:
+      "This gym offers everything I need to stay fit and healthy. Great equipment, professional coaches, and a welcoming community atmosphere.",
+    name: "Michael Smith",
+  },
+  {
+    img: "/assets/testimonial/maria.jpg",
+    message:
+      "I love training here because every session is personalized. The fitness club helps me progress steadily while keeping workouts enjoyable.",
+    name: "Maria Garcia",
+  },
+  {
+    img: "/assets/testimonial/lucy.jpg",
+    message:
+      "Joining this fitness club completely changed my lifestyle. The trainers are supportive, and every workout feels motivating and effective.",
+    name: "Lucy Anthony",
+  },
+  {
+    img: "/assets/testimonial/michael.jpg",
+    message:
+      "This gym offers everything I need to stay fit and healthy. Great equipment, professional coaches, and a welcoming community atmosphere.",
+    name: "Michael Smith",
+  },
+  {
+    img: "/assets/testimonial/maria.jpg",
+    message:
+      "I love training here because every session is personalized. The fitness club helps me progress steadily while keeping workouts enjoyable.",
+    name: "Maria Garcia",
   },
 ];

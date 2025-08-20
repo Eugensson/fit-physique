@@ -46,7 +46,7 @@ export const MembershipSlider = () => {
               <p className="text-accent mb-8 flex items-center gap-1">
                 <sup className="text-4xl">$</sup>
                 <strong className="text-6xl">{price}</strong>
-                <em className="self-end text-2xl">/per month</em>
+                <em className="self-end text-2xl">/month</em>
               </p>
               <CustomButton containerStyles="w-49 h-15.5" text="Buy now" />
             </div>
